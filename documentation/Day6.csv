@@ -1,0 +1,11 @@
+Test Case ID,Description,Steps,Expected Result,Actual Result,Status,Remarks
+TC001,validate home page load,open home page after deployed > verify correctly load,Home page should load without errors,Home page loaded correctly,pass,no issues found
+TC002,validate all routes of website correctly load,open routes step by step > verify all routes correctly display ,open routes and check all pages correctly display data,open routes and check all pages correctly display data,pass,no issues found
+TC003,validate all API Integration,send data from frontend and check correctly work api,send data from frentend and api return correctly response like shipment  and stripe api,send data from frentend and api return correctly response like shipment  and stripe api,pass ,no issues found
+TC004,validate Page Load Speed,open home page > verify page load speed ,page load speed fast,page load speed fast,pass,no issues found
+TC005,validate Environment Variables,Environment variables should be secure and accessible,Environment variables should be secure and accessible,Environment variables accessible and secure,pass,no issues found
+TC006,validate Navigation,navigate pages and check navigation,User should be able to navigate to all pages from the menu,Menu navigation working fine,pass,no issues found
+TC007,validate shipping fucntinolaty,fill shipping form  and  create rates and all logics of shipping  ,shipping functinolaty work correctly,shipping functinolaty work correctly,pass,no issues found
+TC008,validate stripe logic working correctly,click check out button and continue payment proccess,stripe work correctly,stripe work correctly,pass,no issues found
+TC009,check cart functinolaty,add items to cart > verify cart,carts Update Correctly,carts Update Correctly,pass,no issues found
+TC010,check wishlist functinolaty,add items in wishlist > verify wishlist ,wishlist product properly add in wishlist page ,wishlist product properly add in wishlist page ,pass,no issues found
